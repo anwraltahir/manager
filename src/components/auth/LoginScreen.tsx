@@ -33,7 +33,7 @@ export const LoginScreen: React.FC = () => {
             <Lock className="w-6 h-6" />
           </div>
           <h1 className="text-lg font-bold text-slate-900 tracking-tight">
-            {isRtl ? (settings.companyNameAr || 'لوحة تحكم إدارة المشاريع') : (settings.companyNameEn || 'Project & Quotation Admin')}
+            {isRtl ? (settings.companyNameAr || 'إدارة أنور') : (settings.companyNameEn || 'Anwar Management')}
           </h1>
           <p className="text-xs text-slate-500">{t.loginSubtitle}</p>
         </div>

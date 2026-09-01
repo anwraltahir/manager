@@ -1,6 +1,6 @@
 {
-  "name": "نظام إدارة المشاريع وعروض الأسعار",
-  "description": "نظام إداري متكامل لإدارة دورة مشاريع وتطبيقات الويب من عروض الأسعار والتنفيذ حتى تسليم المشروع Handover",
+  "name": "إدارة أنور",
+  "description": "نظام إدارة أنور المتكامل لإدارة دورة مشاريع وتطبيقات الويب من عروض الأسعار والتنفيذ حتى تسليم المشروع Handover",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

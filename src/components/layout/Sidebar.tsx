@@ -111,11 +111,11 @@ export const Sidebar: React.FC<SidebarProps> = ({
           <div className="p-4 border-b border-gray-100 flex items-center justify-between">
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 rounded-lg bg-blue-600 text-white flex items-center justify-center font-bold text-sm shadow-sm shadow-blue-200">
-                <span>إ</span>
+                <span>{language === 'ar' ? 'أ' : 'A'}</span>
               </div>
               <div>
                 <h1 className="text-base font-bold tracking-tight text-slate-900 leading-tight">
-                  {language === 'ar' ? 'إتقان برو' : 'Itqan Pro'}
+                  {language === 'ar' ? 'إدارة أنور' : 'Anwar Management'}
                 </h1>
                 <span className="text-[10px] text-slate-400 font-medium">
                   {language === 'ar' ? 'نظام إدارة المشاريع' : 'Project Management'}

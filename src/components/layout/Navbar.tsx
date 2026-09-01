@@ -45,7 +45,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onToggleSidebar, onNewProject })
             </div>
             <div>
               <span className="text-sm font-bold text-slate-900 block leading-tight">
-                {isRtl ? (settings.companyNameAr || 'إتقان برو') : (settings.companyNameEn || 'Itqan Pro Admin')}
+                {isRtl ? (settings.companyNameAr || 'إدارة أنور') : (settings.companyNameEn || 'Anwar Management')}
               </span>
               <span className="text-[10px] text-slate-400 font-mono">v1.0 • High Density Admin</span>
             </div>

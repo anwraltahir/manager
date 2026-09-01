@@ -25,14 +25,14 @@ async function startServer() {
       status: 'ok',
       uptime: process.uptime(),
       timestamp: new Date().toISOString(),
-      service: 'Itqan Projects & Quotations Management API',
+      service: 'Anwar Projects & Quotations Management API',
     });
   });
 
   // System status and environment info
   app.get('/api/system-info', (_req, res) => {
     res.json({
-      name: 'نظام إدارة المشاريع وعروض الأسعار والتسليم',
+      name: 'نظام إدارة أنور للمشاريع وعروض الأسعار والتسليم',
       version: '1.0.0',
       nodeVersion: process.version,
       environment: process.env.NODE_ENV || 'development',
